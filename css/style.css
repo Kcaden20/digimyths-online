@@ -70,8 +70,12 @@
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 2em;
 		line-height: 1.5em;
+	}
+
+	li h3 {
+		font-size: 1.5em;
 	}
 
 	h4 {
@@ -102,13 +106,22 @@
 	}
 
 	hr {
-		border: 0;
-		border-bottom: medium 1px rgba(144, 144, 144, 0.25);
+		border: none;
+		background-color: #b8509e;
+		color: #ccc;
+		height: 2px;
 		margin: 2em 0;
 	}
 
 		hr.major {
 			margin: 3em 0;
+		}
+
+		#inside-one li a {
+		}
+
+		#four {
+			background-color: 
 		}
 
 	blockquote {
@@ -521,7 +534,6 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
 	}
 
 		ul li {
@@ -1038,7 +1050,26 @@
 				background-color: #70d0f3;
 			}
 			
+			p + h2 {
+				margin-top: 2em;
+			}
 
+			h2 + ul li {
+				font-family: 'Nunito', sans-serif;
+				font-size: 1.5em;
+				line-height: 2em;
+				color: #ba519f;
+				list-style-type: none;
+			}
+
+			ul h3 {
+				margin-top: 1em;
+				margin-bottom: 0;
+			}
+
+			strong {
+				font-weight: 700;
+			}
 /* Wrapper */
 
 		.icon {
@@ -1082,10 +1113,14 @@
 			margin: 0 0 2em 0;
 		}
 
+		p + h3 {
+			margin-top: 2em;
+		}
+
 /* Footer */
 
 	#footer {
-		background-color: #f6f061;
+		background-color: white;
 		color: #b8509e;
 		font-family: 'Nunito', sans-serif;
 		font-weight: 700;
