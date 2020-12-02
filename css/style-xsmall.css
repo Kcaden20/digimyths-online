@@ -31,6 +31,16 @@
 				padding-top: 0;
 			}
 
+			nav > ul > li {
+				font-size: .75em;
+
+			}
+
+			ul.actions li a {
+				margin-bottom: .5em !important;
+				font-size: 1.2em !important;
+			}
+
 			ul.actions li > * {
 				width: 100%;
 				margin: 0 !important;
