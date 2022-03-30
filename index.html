@@ -1,212 +1,336 @@
 <!DOCTYPE html>
-<!--
-	Interphase by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>DigiMyths</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <head>
+        <title>DigiMyths</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="A paid program on digital folklore and how we can better understand our heritage through familial storytelling and computer technologies." />
-		<meta property=“og:image” content=“image/titlecard.jpg” />
-		<meta property=”og:image:width” content=”300″ />
-		<meta property=”og:image:height” content=”200″/>
-		<meta name="keywords" content="education, digital folklore, pedagogy" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <meta name="author" content="Kevin Cadena">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-		<!-- FAVICONS -->
-		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#current">Current Forms</a></li>
+                    <li><a href="#archive">Archive</a></li>
+                    <li><a href="#thankyou">Thank You!</a></li>
+                </ul>
+            </nav>
+        </header>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
+        <main>
+            <figure>
+                <img src="assets/imgs/star.png" alt="An 8-Bit illustration of a star with a bright purple stroke and yellow fill.">
+            </figure>
+            <h1>DigiMyths</h1>
+            <p><em>Website Currently A Work In Progress. Little by Little.</em></p>
+            <div class="modes">
+            <h4>View this page in other modes!</h4>
+                <button onclick="toggleCSS();">HTML Only</button>
+                <button onclick="addDarkMode();">Dark Mode</button>
 
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-			<link rel="preconnect" href="https://fonts.gstatic.com">
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
+            </div>
+            <!-- TITLESPLASH -->
+            <section>
 
-		<!-- Header -->
-			<header id="header">
-				<nav id="nav">
-					<ul>
-						<li><a href="#one">About</a></li>
-						<li><a href="#four">Timeline</a></li>
-						<li><a href="#three">Organizers</a></li>
-						<li><a href="#two">Donate!</a></li>
-						<li><a href="#five">FAQ</a></li>
-					</ul>
-				</nav>
-			</header>
+            <article>
+                <h2>Latest Update</h2>
+                <h4>Instroducting DigiMyths Grants!</h4> 
+                <p>
+                    DigiMyths @ Soft Residency has become DigiMyths Grants! 
+                </p>
+                <p>
+                    Four artists working with themes related to familial history and digital technologies were awarded unrestricted grants! 
+                </p>
+                <a class="call-out" href="#current">Read More Below!</a>
+            </article>
+            </section>
 
-		<!-- Banner -->
-			<section id="banner">
-				<h2>DigiMyths</h2>
-				<p>A paid program on digital folklore and how we can better understand our heritage through familial storytelling and computer technologies.</p>
-				<ul class="actions">
-					<li>
-						<a href="https://forms.gle/sBMCk5j76RwtwNyV9" class="button big">Apply To The Program!</a>
-					</li>
-					<li>
-						<a href="#" class="button big">Help DigiMyths Happen!</a>
-					</li>
+            <!-- ABOUT SECTION -->
+            <section id="about">
+                <figure>
+                    <img src="assets/imgs/about.png" alt="An 8-Bit illustration of a question mark with a bright purple stroke and yellow fill.">
+                </figure>
+                <article>
+                    <h2>About</h2>
+                    <h3>What is DigiMyths?</h3>
+                    <p>
+                        Third-culture kids, or individuals who were raised in a culture other than that of their parents and family or their ethnic background, often have a deeply complex sense of who they are and where they belong; i.e. in a place that exists in concept only. Deepened  by the impact of COVID-19, this place fades as connecting with family in-person and trips to visit their familial lands become sporadic or inaccessible, and holding on to one’s heritage becomes harder.
+                        </p>
+                        <p>
+                        This initiative emerged out of a desire to support and explore this place as a means of reconnecting with that heritage through contextualizing customs and stories and expanding understanding without geo-physicality.
+                    </p>
 
+                    <h3>How does DigiMyths take form?</h3>
+                    <p>Initiatives take different iterations based on capacity, opportunity and availability of collaborators. Making sure that anyone involved in the programs are compensated for their time and supported is the biggest priority. </p>
 
-				</ul>
-				<ul id="subinfo">
-					<li>
-						Instructor: Kevin Cadena
-					</li>
-					<li>
-						Hosted by BabyCastles
-					</li>
-				</ul>
-			</section>
+                    <section class="two-columns">
+                        <div>
+                        <h5>DigiMyths has been:</h5>
+                            <ul>
+                                <li>An educational program</li>
+                                <li>A speaker series</li>
+                                <li>A book</li>
+                                <li>A grant</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>DigiMyths could be:</h5>
+                            <ul>
+                                <li>A one-day conference</li>
+                                <li>A press</li>
+                                <li>A space</li>
+                            </ul>
+                        </div>
+                    </section>  
 
-		<!-- One -->
-			<section id="one" class="wrapper style1 align-center">
-				<div class="container">
-					<header>
-						<div class="icon"><img class="icon" src="images/star.png"></div>
-						<h2>What is DigiMyths?</h2>
-						<p>As first-generation citizens, third-culture kids, or others with a familial attachment to another country, this other place often exists as an idea in our own heads. Complicated even further by COVID-19, the place begins to fade as frequent summer trips become sporadic, and maintaining one’s heritage becomes harder. What is Digital Folklore? While it’s definitions are amorphous, one way to see it is as a manner reconnecting with that heritage through understanding customs, stories, and beliefs without the need for geo-physicality. Join Kevin Cadena, BabyCastles’ Digital Folklorist-in-Residence for a DigiMyths: a program on the intersection of digital technologies, heritage, and familial stories. 
-							<br><br>
-						</p>
-						<h3>How Will It Be Structured?</h3>
-						<p>
-							The participants and instructor will convene on Zoom to start the program in early February, and to end the program in late February. During these two weeks, participants will research mythologies related to their homeland and/or culture, sketch out potential ideas melding computer technologies into these stories, produce drafts to actualize their concepts and create self-driven projects that explore their own interpretation of  Digital Folklore. To further supplement their projects, The instructor will host a series of co-working sessions on Wednesdays between the two weeks for those who need time set aside and gather resources and materials that showcase some ways that artists have recontextualized their heritage through digital media. There will also be a discord server set up for the program to communicate asychronously. 
-							<br><br></p>
+                    <h3>Who Organizes This?</h3>
+                    <p>The project is currently maintained by <a href="http://kevincadena.com">Kevin Cadena</a>, though DigiMyths initiatives involve and center other artists, designers, educators, facilitators, storytellers, writers and more.</p>  
+                </article>
+            </section>
 
-							<h3>Who Should Participate?</h3>
-							<p>							Participants should either be enrolled in a degree-granting arts program, have recently graduated from a program or have had to recently stop their studies due to COVID-19 related complications. Participants should also have a connection with another country outside of the one they are residing in—either through their parents, grandparents, etc—and are looking for new ways to engage with that homeland. Participants will work on self-directed projects over the course of two weeks culminating in a final presentation of the work done and where it will go.
+            <!-- CURRENT PROJECTS -->
+            <section id="current">
+                <h2>Current Forms</h2>
+                <article>
+                <h3>DigiMyths Grants</h3>
+                <p><em>Winter 2022</em></p>
+                    <h4>About</h4>
+                    <p>DigiMyths Grants is the transitioned state of the DigiMyths @ Soft Residency Program. </p>
 
-								<br><br>
-								Participants accepted into the program will be asked to place a $20 deposit and will recieve an additional $50 upon completion of the program and submission of materials for documentation. Applications who cannot afford to place the deposit can state so in their application. 
-							</p>
-					</header>
-				</div>
-			</section>
+                    <h5>Why We Switched to a Grant Model</h5>
+                    <p>During the application review period, it became clear that the residency would not be able to proceed as expected so we shifted gears. Under the original model, residents would have received value through an awarded studio space; access to the equipment, program space, and community at Soft Surplus; collaboratively-developed programming; and a small stipend.</p>
 
-			<section id="four" class="wrapper style2 align-center">
-				<div class="container">
-					<header>
-						<div class="icon"><img class="icon" src="images/app.png"></div>
-							<h2>Application Process</h2>
-							<ul>
-								<li><h3>Application Opens</h3>December 16th, 2020</li>
-								<hr>
-								<li><h3>Application Closes</h3>January 6th, 2020</li>
-								<hr>
-								<li><h3>Participants Notified</h3>January 22nd, 2020</li>
-								<hr>
-								<li><h3>Program Starts</h3>February 7th, 2020</li>
-							</ul>
+                    <h5>How does it work now?</h5>
+                    <p>  							Under the new model, the size of the grant has been increased substantially to $700 per recipient. The grants are being funded through a combination of grant support awarded to DigiMyths from larger arts organizations and individual contributions. In addition, we will meet with the residents to discuss whether there are areas of their creative practice or project where they’d be interested in non-monetary forms of support​​; for example, studio visits, fabrication tutorials, creative networking, or supervised access to workshop facilities.</p>
 
-							<ul id="inside-one" class="actions">
-								<li>
-									<a href="https://forms.gle/sBMCk5j76RwtwNyV9" class="button big">Apply To The Program!</a>
-								</li>
-							</ul>
-					</header>
-				</div>
-			</section>
+                    <h5>Where are we in the process?</h5>
+                    <p>Four artists were awarded the grant in early February 2022. Current projects being funded by the grants reflect the ancestral and/or diasporic experiences of the artists. All projects are at different stages in the process.</p>
+                    <p>Three months from our initial meeting, we will be meeting and an interview series with the artists will be published!</p>
+                    <h4>Organizers</h4>
+                    <ul class="two-columns">
+                        <li>Kevin Cadena, <em>DigiMyths Coordinator</em></li>
+                        <li>
+                            Andres Chang, <em>Soft Surplus Community Liason</em>
+                        </li>
+                    </ul>
+                </article>
+            </section>
 
-			<section id="three" class="wrapper style3 align-center">
-				<div class="container">
-					<header>
-						<div class="icon"><img class="icon" src="images/people.png"></div>
-						<h2>Who is involved?</h2>
-						<h3>Kevin Cadena</h3>
-						<p>Kevin is a graphic designer, web developer, and educator currently based in NYC. As an educator, he has taught at the Parsons Scholars Program a 3-year needs-based college-readiness program for NYC high school students working at the intersection of art and social justice along with teaching as an adjunct faculty member in the design department at the School of Visual Arts. He am currently a digital-folklorist-in-residence at Babycastles, an NYC collective fostering diverse voices in videogames.</p>
+            <!-- ARCHIVE -->
+            <section id="archive">
+                <figure>
+                    <img src="assets/imgs/app.png" alt="An 8-Bit illustration of a form with a bright purple stroke and yellow fill.">
+                </figure>
+                <h2>Archive</h2>
 
-						<h3>Babycastles</h3>
-						<p>Babycastles is a NYC based collective fostering and amplifying diverse voices in videogame culture. Babycastles provides artists support to actualize ideas and expose that work to new audiences. 
-							<br><br>
-							Babycastles primarily exhibit videogames, but also feature visual art, digital media, and mixed media installations. Babycastles host a variety of events up to four nights a week, including exhibition openings and closings, artist talks, presentations, readings, live music and coding shows, game development workshops, game jams, creative salons, student showcases, coworking nights, and more. 	
-						</p>
-					</header>
-				</div>
-			</section>
+                <!-- DigiMyths Reader -->
+                <article>
+                    <h3>DigiMyths Reader</h3> 
+                    <p><em>Fall 2021</em></p>
+                    <p>  						
+                    A book produced to document the DigiMyths educational program. 
+  							
+                    This volume brings together details about about the curriculum, residency and speaker series and includes an introductory text by DigiMyths Organizer, Kevin Cadena. Contributions rounding out the publication, include commissioned essays, original illustrations and contributions from the DigiMyths program. 
+                    </p>
+                    <h4>Participant Contributions</h4>
+                    <ul>
+                        <li>
+                        "Sitting at Home," by <a href="http://www.zoepeninabaker.net">Zoe Peninna Baker</a></li>
+                        
+                        <li>
+                        "Los Sentimientos del Alma (Tulum Dreamstate)," by <a href="">Habiba Hopson</a></li>
+                        
+                        <li>
+                        A text by <a href="https://www.meskenazi.com">Mae Eskenazi</a> about their practice's roots in a disability framework</li>
+                        
+                        <li>
+                        An untitled poem by <a href="https://anjalinair.com">Anjali Nair</a></li>
+                        
+                        <li>
+                        "Fear of the Lord is the Beginning of Wisdom," by <a href="https://www.dizzydoggo.com">Gisselle Jiménez</a></li>
 
-		<!-- Two -->
-			<section id="two" class="wrapper style2 align-center">
-				<div class="container">
-					<header>
-						<div class="icon"><img class="icon" src="images/donate.png"></div>
-						<h2>Help DigiMyths Happen!</h2>
-						<p>We currently have a IndieGoGo running to help fulfill the full vision of the program. As little as $20 dollars will help pay for the participant spots, documentation books and a speaker series! </p>
-						<a href="#" class="button big">Donate Here!</a>
-					</header>
-				</div>
-			</section>
+                        <li>
+                        Poetry by T E Obiaya </li>
 
-			<section id="five" class="wrapper style3 align-center">
-				<div class="container">
-					<header>
-						<div class="icon"><img class="icon" src="images/about.png"></div>
-						<h2>FAQ</h2>
+                        <li>
+                        "Contrary Characters: Stories from Asian-American daughters on their immigrant fathers," by <a href="https://shinyupai.com">Shin Yu Pai</a></li>
+                        
+                        <li>
+                        "Close isn't Home: 3D Black Diaspora Library," by <a href="https://samanthavassor.com">Samantha Vassor</a> </li>
+                        
+                        <li>
+                        "De Norte a Sur: Juego de Loteria," by <a href="https://www.monicasinaloa.com">Monica Sinaloa</a> </li>
+                        
+                        <li>An Original Illustration by <a href="https://www.instagram.com/mastuwu/">Stephanie Wu</a></li>
+                    </ul>
+                    <h4>Commissioned Essays</h4>
+                    <p>All essays were accompanied with an original illustration made by Kevin Cadena.</p>
+                    <ul>
+                        <li>"Notes on Navigating the Colonial Universe," by <a href="https://www.instagram.com/mayaortizsau/a">Maya Ortiz Saucedo</a></li>
+                        <li>
+                            "What is Asia?" by <a href="http://www.angelinegragasin.com">Angeline Gragasin</a> </li>
+                        <li>
+                            "Out of Time, Out of Place," by <a href="https://chantalfeitosa.com">Chantal Feitosa</a>
+                        </li>
 
-						<h3>Is the program happening dependent on funding?</h3>
-						<p>Funding helps create the program in it's most ideal way. Whether or not the funding comes through, the program will happen though it might change to account for how much is actually raised. <br><br> The most crucial part of funding that I'd like to make is at least the $500 to compensate participants.</p>
+                    </ul>
+                    <p>
+                        The reader was released in <strong>September 2021</strong> and risograph printed with TXTBooks and comes packaged in a reflective anti-static bag with a sticker and a piece of packaging tape that can be used as a de facto bookmark.
+                    </p>
+                    <div class="two-columns">
+                        
+                            <a class="call-out" href="http://kevincadena.com/projects/digimyths-reader">
+                            Learn More Here
+                        </a>
+                        
 
-						<h3>Why is this program happening?</h3>
-						<p>
-							 I am currently a resident at Babycastles and my project revolves around reinterpreting stories passed down from my family members for the internet now that visiting my familiy members abroad is impossible. As part of my residency at Babycastles, I am asked to host a public program. DigiMyths is the program that birthed from the intersection of my residency and education.
-							<br><br>
-							Along with this, as an educator,  COVID-19 fully exposing the problems of academic institutions from its quick abandonment of students under financial duress, the inaccessibility for anyone but the most privileged, and the precarious state of part-time faculty, the desire for alternative learning spaces has become crucial.
-							
-							<br><br>
+                    
+                        <a class="call-out" href="https://draw-down.com/collections/new-titles/products/digimyths-reader">
+                            Buy Book for Sale with Draw-Down Here
+                        </a>
+                    
+                    </div>
+                </article>
 
-							This program seeks to create a first iteration of those alternative spaces.
+                <hr>
+                <!-- DigiMyths Speaker Series-->
+                <article>
+                    <h3>
+                        DigiMyths Public Speaker Series
+                    </h3>
+                    <p><em>Spring 2021</em></p>
+                    <p>
+                        At the end of the program, we had a public speaker series with two artists whose work intersects storytelling, mythology, and technology.
+                    </p>
+                    <ul class="two-columns">
+                        <li><strong>Wednesday March 17th, 2021</strong>: <a href="https://www.allanpichardo.com">Allan Pichardo</a> Speaks on His Project, <em>Follow the Drinking Gourd</em>.</li>
+                        <li><strong>Wednesday March 24th, 2021</strong>: <a href="https://www.instagram.com/m0henjodaro/">Somnath Bhatt</a> gives a lecture on his process titled <em>On The Work</em>.</li>
+                    </ul>
+                    
+                        <a class="call-out" href="https://www.eventbrite.com/e/digimyths-speaker-series-allan-pichardo-0317-somnath-bhatt-0324-tickets-144023944495#">See More Information Here</a>
+                    
+                </article>
 
-						</p>
+                <hr>
 
-						<h3>Why is the program primarily for students in college or recently graduated students ?</h3>
-						<p>
-							With COVID-19 fully exposing the problems of academic institutions from its quick abandonment of students under financial duress, the inaccessibility for anyone but the most privileged, and the precarious state of part-time faculty, the desire for alternative learning spaces has become crucial. 
-							
-							<br><br> 
-							Art School was already a difficult decision prior to COVID-19 and now been made hard to justify. As such the first irteration of DigiMyths is focused on serving this group and creating the first iteration of alternative learning spaces. 
+                <!-- DigiMyths Winter Program -->
+                <article>
+                    <h3>DigiMyths Winter 2021 Educational Program</h3>
+                    <p><em>Winter 2021</em></p>
+                    <p>Over the course of two weeks, participants researched mythologies, sketch out potential ideas melding in computer technologies, and actualize their concepts. The class structure co-worked on Wednesdays, convened on Sundays, and Discord throughout the week to share resources showcasing how artists have recontextualized their heritage through digital media. After the program concluded,a public speaker series will follow, along with the publication of a book documenting participants’ work made during this time.
+                    </p>
+                    <p>
+                        Participants were either enrolled in a degree-granting arts program, had graduated within the last two years, or stopped their studies due to COVID-19 complications. Participants should have a connection or want to reestablish a lost connection with another place outside of where they reside and are looking for ways to engage with the culture and tradition of that land.
+                    </p>
+                    <p>
+                        Participants accepted into the program were asked to place a $20 deposit and received an additional $50 upon completion of the program and submission of materials for documentation. Applications who cannot afford to place the deposit can state so in their application. 
+                    </p>
+                    <h4>Credits</h4>
+                    <p>The DigiMyths Educational Program would not have been possible without these people! </p>
 
-						</p>
+                    <div class="two-columns">
+                        <h5><a href="https://www.babycastles.com/residency">Babycastles Residency Coordinators</a></h5>
+                        <ul>
+                        <li><a href="https://hyacinthnil.com">Hyacinth Nil</a></li>
+                        <li>Flan Falacci</li>
+                        </ul>
+                        <h5>DigiMyths Applicant Jurors</h5>
+                        <ul>
+                        <li><a href="http://www.arnon.io">Arnon Karnkaeng</a></li>
+                        <li><a href="https://kaaathy.com">Kathy Wu</a></li>
+                        <li><a href="https://con-animo.com">Kairy Herrera-Espinoza</a></li>
+                        <li>Krissy Rubbles</li>
+                        </ul>
+                        <h5>Guest Facilitators</h5>
+                        <ul>
+                          <li>Arnon Karnkaeng</li>
+                          <li>Chantal Feitosa</li>
+                          <li><a href="https://zoescruggs.com">Zoe Scruggs</a></li>
+                        </ul>
+                        <h5>Babycastles Organizers</h5>
+                        <ul>
+                        <li>Lauren Gardner</li>
+                        <li><a href="https://leetusman.com">Lee Tusman</a></li>
+                        <li><a href="https://toddwords.com">Todd Anderson</a></li>
+                        <li>and the rest of the Babycastles
+                        organizing staff!</li>
+                        </ul>
+                    </div>
+                    
+                        <a class="call-out" href="http://kevincadena.com/projects/digimyths">Learn More Here!</a>
+                    
+                </article>
+            </section>
 
-					</header>
-				</div>
-				<footer id="footer">
-					<div class="container">
-						<ul class="copyright">
-							<li>&copy; Kevin Cadena. BabyCastles All rights reserved.</li>
-						</ul>
-					</div>
-				</footer>
-			</section>
-
-		<!-- Footer -->
-
-
-	</body>
+            <!-- Thank You -->
+            <section id="thankyou">
+                <figure>
+                    <img src="assets/imgs/donate.png" alt="An 8-Bit illustration of a two hands that make a heart with a bright purple stroke and yellow fill.">
+                </figure>
+                <h2>Thank You!</h2>
+                <p>DigiMyths first year of projects would not have been possible without the following people who contributed to launch the project. Thank you all so much for taking a chance on this project  </p>
+                <h3> IndieGogo Backers</h3>
+                <ul class="four-columns">
+                    <li>Ali Brito</li>
+                    <li>Andres Chang</li>
+                    <li>Angeline Gragasin</li>
+                    <li>April Tran</li>
+                    <li>Austin Wade Smith</li>
+                    <li>Bidita Choudhury</li>
+                    <li>Bo-Won Keum</li>
+                    <li>Bonnie Tran</li>
+                    <li>Brendan Thompson</li>
+                    <li>Callil Capuozzo</li>
+                    <li>Deja Holden</li>
+                    <li>Emma Werowinski</li>
+                    <li>Fielding Hong</li>
+                    <li>Frank Mondragon</li>
+                    <li>Helena Jaramillo</li>
+                    <li>Itandehui Gomez</li>
+                    <li>Joanna Wong</li>
+                    <li>John Filmanowicz</li>
+                    <li>Joshua Hurtado</li>
+                    <li>Kathy Wu</li>
+                    <li>Lucy Siyao Liu</li>
+                    <li>Mad Pinney</li>
+                    <li>Mae Eskenazi</li>
+                    <li>Marcelo Rodriguez</li>
+                    <li>Matilda Wysocki</li>
+                    <li>Matt Romein</li>
+                    <li>Maya Ortiz</li>
+                    <li>Meredith Morran</li>
+                    <li>Molly Kleiman</li>
+                    <li>Moma Wilwayco</li>
+                    <li>Peter Russo</li>
+                    <li>Renee Christiane</li>
+                    <li>Rosanne Kue</li>
+                    <li>Shea Fitzpatrick</li>
+                    <li>Tasnima Tanzim</li>
+                    <li>Tracy Leung</li>
+                    <li>Xavier Jones</li>
+                </ul>
+                <p>Along with members of my family, Samantha Cadena, Claudia Rincon, Nidia Rincon & Jose Cadena who helped fundraise locally in Orlando, FL! </p>
+            </section>
+        </main>
+        <footer>       
+            <p>Website made with HTML & CSS by Kevin Cadena. Perperutally Under Construction.</p>
+            <p>Website v.2.2</p>
+            <p>&copy; Kevin Cadena. All rights reserved.</p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+            </p>     
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
 </html>
