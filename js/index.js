@@ -15,7 +15,3 @@ function toggleCSS() {
         cssRemove = false;
     }
 }
-
-function addDarkMode() {
-    document.body.classList.toggle("dark-theme");
-}
