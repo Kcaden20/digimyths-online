@@ -17,7 +17,9 @@
 @supports (color: color(display-p3 1 1 1)) {
     :root {
         --green: color(display-p3 0.5814 0.9874 0.4826);
-        --blue: color(display-p3 0.67 0.841 1);
+        --blue: color(display-p3 0.63 0.925 1);
+        --pink: color(display-p3 1 0.735 0.891);
+        --purple: color(display-p3 0.346 0.009 0.455);
     }
 }
 
