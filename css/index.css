@@ -86,15 +86,26 @@ nav {
     width: 100%;
     background-color: var(--green);
     border-radius: 5rem;
+    z-index: 1;
 }
 nav ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
 }
 
 nav ul li {
     list-style-type: none;
     align-self: center;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* Main Styles */
@@ -173,12 +184,51 @@ section figure:first-child img{
     cursor: pointer;
 }
 
+
+/* DARK MODE */
+.dark-theme section:first-of-type, .dark-theme section:nth-of-type(3), .dark-theme section:nth-of-type(4){
+    background-color: var(--bgColor);
+    border: solid 1px var(--blue);
+}
+
+.dark-theme section:nth-of-type(3) {
+    border-color: var(--pink);
+}
+
+.dark-theme .call-out:hover, .dark-theme .modes button:hover { 
+    background-color: var(--yellow);
+    color: var(--purple);
+}
+
+.dark-theme header nav {
+    background-color: var(--pink);
+}
+
+.dark-theme header nav ul li a {
+    color: var(--purple);
+}
+
+.dark-theme hr {
+    border-color: var(--pink);
+}
+
+.dark-theme figure:first-child img {
+    filter: invert(100%);
+
+}
+
 @media screen and (max-width: 480px) {
     section {
         padding: 2em .75em
     }
     nav ul {
-        margin: 0em
+        margin: 0em;
+        padding: 0;
+        font-size: .75em;
+    }
+    
+    nav ul li {
+      width: 75px; 
     }
     .two-columns, .four-columns {
         grid-template-columns: repeat(1, 1fr);
